@@ -31,23 +31,23 @@
     padding-left: 67px;
 }
 .about-sub-title{
-    font-size: 25px;
+    font-size: 50px;
     color: #737345;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: -5px;
 }
 .about-text{
-    font-size: 16px;
+    font-size: 20px;
     color: #272317;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .about-wrapper{
-display: flex;
-align-items: center;
-gap: 41px;
-padding-left: 67px;
-padding-right: 100px;
-padding-top: 0px;
+    display: flex;
+    align-items: center;
+    gap: 41px;
+    padding-left: 67px;
+    padding-right: 100px;
+    padding-top: 0px;
 }
 
 
@@ -59,14 +59,75 @@ padding-top: 0px;
     padding-left: 67px;
 }
 .hotdog-text{
-    font-size: 16px;
+    padding-left: 67px;
+    font-size: 24px;
+    color: #737345;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hotdog-list{
+    font-size: 18px;
     color: #272317;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .hotdog-wrapper { 
     display: flex;
     align-items: center;
+    gap: 4rem;
+}
+.hotdog-button{
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: #272317;
+    color: #e7e5d8;
+    margin: 280px;
+}
+
+.hotdog-button:hover {
+background-color: #423c2b;
+}
+
+/* CONTACT CSS */
+.contact-title{
+    font-size: 70px;
+    color: #272317;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 67px;
+    padding-right: 67px;
+    text-align: center;
+}
+.contact-text{
+    font-size: 17px;
+    color: #e7e5d8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    padding-left: 170px;
+    padding-right: 67px;
+    padding-left: 67px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contact-wrapper { 
+    display: flex;
+    align-items: center;
     gap: 41px;
+    background-color: #737345;
+    padding-left: 67px;
+}
+
+.contact-button{
+    text-decoration: none;
+    transition-duration: 0.4s;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: #272317;
+    color: #e7e5d8;
+    margin: 280px;
+}
+
+.contact-button:hover {
+background-color: #423c2b;
 }
 
 
@@ -74,10 +135,27 @@ padding-top: 0px;
 .about-img{
     max-width: 600px;
     height: auto;
+    image-rendering: pixelated;
 }
 .hotdog-img{
     max-width: 400px;
     height: auto;
+    image-rendering: pixelated;
+}
+.contact-img{
+    max-width: 700px;
+    height: auto;
+    image-rendering: pixelated;
 }
 
+hr{
+height: 2px;
+background-color: #737345;  
+width: 95%;
+margin: 100px auto; 
+}
+
+body{
+    background-color: #e7e5d8;
+}
 

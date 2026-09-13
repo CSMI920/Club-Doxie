@@ -74,20 +74,6 @@
     align-items: center;
     gap: 4rem;
 }
-.hotdog-button{
-    text-decoration: none;
-    transition-duration: 0.4s;
-    padding: 10px 12px;
-    border-radius: 8px;
-    font-size: 12px;
-    background-color: #272317;
-    color: #e7e5d8;
-    margin: 280px;
-}
-
-.hotdog-button:hover {
-background-color: #423c2b;
-}
 
 /* CONTACT CSS */
 .contact-title{
@@ -123,7 +109,7 @@ background-color: #423c2b;
     font-size: 12px;
     background-color: #272317;
     color: #e7e5d8;
-    margin: 280px;
+    margin: 270px;
 }
 
 .contact-button:hover {
